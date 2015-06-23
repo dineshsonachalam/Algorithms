@@ -23,6 +23,6 @@ public class QuickFindUF{
             }
         }
         else
-            break;
+            return;
     }
 }
