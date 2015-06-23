@@ -1,3 +1,18 @@
+/*
+ * Algorithm for Quick Find.
+ * Description of the Algorithm:
+ * -Integer array id[] of size N.
+ * -Interpretation: p and q are connected iff they
+ *  have the same id.
+ *
+ *        0  1  2  3  4  5  6  7  8  9
+ *  id[]  0  1  1  8  8  0  0  1  8  8
+ *
+ *  0  1--2  3--4
+ *  |     |  |  |
+ *  5--6  7  8  9
+ */
+
 public class QuickFindUF{
     private int id[];
     public QuickFindUF(int N){
